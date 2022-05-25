@@ -1,0 +1,58 @@
+/* desktop 992px and more 
+
+tablet 768px and 991px 
+
+mobile 767px and less  */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.content-wrapper{
+    padding: 20px;
+}
+
+nav{
+  background-color: pink;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black; 
+}
+
+hr{
+  margin: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.header-wrapper{
+  margin-top:25px;
+}
+
+.section-wrapper{
+    box-sizing: border-box;
+}
+
+.section-content{
+    background-color: rgb(254, 236, 236);
+    border: 1px solid black;
+    margin: 20px;
+    padding: 25px;
+    position: relative;
+    box-sizing: border-box;
+   
+}
+
+.section-content p{
+    /* margin: 40px 15px 15px 15px; */
+    font-size: 20px;
+}
+
+
+
